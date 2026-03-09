@@ -15,8 +15,8 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
-                At <span className="font-bold text-orange-600">TRI-IT</span>, we believe every bite should be a celebration.
-                Our journey began with three playful chef monkeys who dreamed of bringing joy through desserts.
+                At <span className="font-bold text-orange-600">TRI-IT</span>, every bite is a celebration! Our journey began with three friends sharing
+                a dream — to create desserts that bring joy and make every moment memorable.
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
@@ -41,9 +41,9 @@ export default function About() {
               <div className="bg-gradient-to-br from-pink-200 to-orange-200 rounded-3xl p-8 shadow-xl">
                 <div className="bg-white rounded-2xl p-8 text-center">
                   <div className="text-6xl mb-4">🐵👨‍🍳🐵</div>
-                  <p className="text-gray-700 font-semibold">Three Chef Monkeys</p>
+                  <p className="text-gray-700 font-semibold">Three friends, one Dream</p>
                   <p className="text-sm text-gray-600 mt-2">
-                    Representing Creativity, Sweetness & Fun
+                    creating desserts full of creativity, sweetness, and fun
                   </p>
                 </div>
               </div>
