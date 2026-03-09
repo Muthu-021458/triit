@@ -9,17 +9,25 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
+  // Properly typed function
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="min-h-screen">
-      <Hero />
-      <About />
-      <PopularDesserts />
-      <WhyChoose />
-      <Gallery />
-      <Reviews />
-      <Location />
-      <Contact />
-      <Footer />
+      <div id="hero"><Hero scrollToSection={scrollToSection} /></div>
+      <div id="about"><About /></div>
+      <div id="popular-desserts"><PopularDesserts /></div>
+      <div id="why-choose"><WhyChoose /></div>
+      <div id="gallery"><Gallery /></div>
+      <div id="reviews"><Reviews /></div>
+      <div id="location"><Location /></div>
+      <div id="contact"><Contact /></div>
+      <div id="footer"><Footer scrollToSection={scrollToSection}  /></div>
     </div>
   );
 }
